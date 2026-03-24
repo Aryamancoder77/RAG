@@ -13,4 +13,4 @@ app.register_blueprint(filenames_bp)
 app.register_blueprint(delete_bp)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=false)
+    app.run(host="0.0.0.0", port=5001, debug=true)
