@@ -32,7 +32,7 @@ def test_highlight_pdf_text(pdf_path, highlight_text="• Name: Sarah Johnson"):
         return None, e  # Return the error
 
 # Example usage
-pdf_path = "/Users/sarthakgarg/Documents/Sarthak/Medical Record 01.pdf"  # Replace with your PDF file path
+pdf_path = "/Users/Aryamancoder77/Documents/Sarthak/Medical Record 01.pdf"  # Replace with your PDF file path
 highlight_text = "• Name: Sarah Johnson"  # The text we want to highlight
 
 # Run the test function
@@ -41,7 +41,7 @@ highlighted_pdf, error = test_highlight_pdf_text(pdf_path, highlight_text)
 if highlighted_pdf:
     print("Highlighting successful. You can now save the highlighted PDF.")
     # Save the in-memory PDF to a file
-    output_path = "/Users/sarthakgarg/Downloads/highlighted_output24.pdf"
+    output_path = "/Users/Aryamancoder77/Downloads/highlighted_output24.pdf"
   # The desired output file path
     with open(output_path, "wb") as f:
         f.write(highlighted_pdf.getbuffer())
