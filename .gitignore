@@ -1,4 +1,5 @@
-volumes/
-__pycache__/
+volumes
+__pycache__
 .DS_Store
 .env
+
