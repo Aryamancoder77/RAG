@@ -27,7 +27,7 @@
 #         if not filename:
 #             return jsonify({"error": "Filename must be provided."}), 400
 
-#         # Delete all records related to the given filename
+#        
 #         filter_expr = f'pdf_name == "{filename}"'
 #         result = collection.delete(expr=filter_expr)
 
