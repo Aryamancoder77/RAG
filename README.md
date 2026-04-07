@@ -40,5 +40,5 @@ This repository contains various Python scripts and configurations aimed at enha
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/sarthakgarg07/Linux_Machine.git
+   
    cd Linux_Machine
