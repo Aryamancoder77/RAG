@@ -35,7 +35,6 @@ if clear_button or "messages" not in st.session_state:
         {"role": "system", "content": "You are a helpful assistant specializing in content extraction and question answering."}
     ]
 
-# Function to extract text from PDF by page and ensure patient name is stored in metadata
 def extract_text_by_page_with_metadata(pdf_file):
     page_texts = []
     patient_name = None
