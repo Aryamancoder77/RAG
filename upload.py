@@ -280,7 +280,7 @@ def drop_collection(collection_name):
     except Exception as e:
         print(f"Failed to drop collection '{collection_name}': {e}")
 
-drop_collection("exmpcollection1")  # Drop the collection (only if it exists)
+drop_collection("exmpcollection1")  # Drop the collection 
   # Recreate the collection with the correct schema
 
 
