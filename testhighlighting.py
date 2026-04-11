@@ -21,7 +21,7 @@ def highlight_sentence(pdf_path, sentence, output_path):
     document.save(output_path, garbage=4, deflate=True)
     document.close()
 
-# Example usage
+# Example 
 pdf_path = "/Users/sarthakgarg/Documents/Sarthak/Medical Record 01.pdf"
 sentence = "• Name: Sarah Johnson"
 output_path = "testfile.pdf"
