@@ -223,7 +223,7 @@ if pdf_files:
             page_texts = extract_text_by_page(pdf_data)
             pdf_name = pdf_file.name
             page_data.append((pdf_name, page_texts))
-            # Add the uploaded file to the list and save it
+            # Add uploaded file to the list and save it
             add_uploaded_file(json_file_path, pdf_name)
 
         for pdf_name, page_texts in page_data:
