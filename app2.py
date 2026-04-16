@@ -62,7 +62,7 @@ def extract_text_by_page(pdf_file):
         st.error(f"Error extracting text from PDF: {e}")
     return page_texts
 
-# Function to chunk text by page
+# Function to chunk by page
 def chunk_text_by_page(page_texts, chunk_size=100):
     chunks = []
     chunk_page_numbers = []
