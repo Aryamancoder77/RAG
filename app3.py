@@ -1,7 +1,7 @@
 import os
 import io
 import streamlit as st
-import fitz  # PyMuPDF
+import fitz  
 import PyPDF2
 import re
 from nltk.tokenize import sent_tokenize
