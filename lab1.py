@@ -13,7 +13,7 @@ print(tokens)
 print()
 
 # 2. Load the English language model in spaCy and perform POS tagging
-# Download the English model if you haven't already
+# Download the English model if you have not already
 try:
     spacy.cli.download("en_core_web_sm")
 except:
