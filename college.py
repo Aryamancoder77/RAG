@@ -17,7 +17,7 @@ def min_steps_to_divisible(arr, x):
             break
     return moves
 
-# Function to take input and call the solution function
+# Function to take input then call the solution function
 def main():
     n = int(input().strip())
     arr = list(map(int, input().strip().split()))
