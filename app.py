@@ -2,7 +2,7 @@ import os
 import io
 import streamlit as st
 import PyPDF2
-import fitz  
+import fitz  #PYMUPDF
 import nltk
 import re
 from sklearn.metrics.pairwise import cosine_similarity
