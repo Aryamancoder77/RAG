@@ -23,7 +23,7 @@
 # Read the number of elements
 n = int(input())
 
-# Initialize a list to store the elements
+# Initialize a list to store the 
 elements = []
 
 # Read each element from the input
