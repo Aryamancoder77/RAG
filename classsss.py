@@ -2,7 +2,7 @@
 def min_delivery_time(n, friends_time, mayur_time):
     min_times = []
     for i in range(n):
-        # For each item, calculate the minimum time it takes (either by friend or Mayur)
+        # For each item, calculate the minimum time it takes (either by friend )
         min_times.append(min(friends_time[i], mayur_time[i]))
     
     # The overall time will be the maximum of these minimum times
