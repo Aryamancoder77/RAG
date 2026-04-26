@@ -42,7 +42,7 @@ def retrieve_file(file_id):
     else:
         return jsonify({"error": "File not found"}), 404
 
-# API 2: Query Handling
+# API 2: Query Handle
 @app.route('/query', methods=['POST'])
 def query_handler():
     input_data = request.json
