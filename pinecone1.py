@@ -17,7 +17,7 @@ pc = Pinecone(api_key=api_key)
 index_name = 'testingggg'
 dimension = 384
 
-# Delete the existing index if it exists
+# Delete the existing index if it exist
 if index_name in pc.list_indexes().names():
     pc.delete_index(index_name)
 
