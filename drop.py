@@ -28,5 +28,5 @@ if __name__ == "__main__":
     # Specify the collection name you want to drop
     collection_name = "exmpcollection1"
 
-    # Drop the collection
+    # Drop collection
     drop_collection(collection_name)
