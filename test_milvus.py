@@ -25,7 +25,7 @@ if collection.is_empty:
 else:
     print(f"Failed to create collection '{collection_name}'.")
 
-# Insert some dummy data
+# Insert dummy data
 vectors = np.random.random([10, 128]).astype(np.float32)
 collection.insert([vectors])
 
