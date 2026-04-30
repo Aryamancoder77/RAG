@@ -26,7 +26,7 @@ try:
                 "content": "What are Black Holes?",
             }
         ],
-        model="llama-3.1-8b-instant",  # Replace with the correct model identifier for LLaMA 3
+        model="llama-3.1-8b-instant",  # Replace with the correct model identifier LLaMA 3
     )
 
     print(llm.choices[0].message.content)
