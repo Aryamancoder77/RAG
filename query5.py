@@ -150,7 +150,7 @@
 #     context_metadata = []
 
 #     for chunk, metadata in reranked_results:
-#         context_chunks.append(chunk)
+#         context_chunks.append(chunks)
 #         context_metadata.append(metadata)
 
 #     context = " ".join(context_chunks)
