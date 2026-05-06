@@ -19,7 +19,7 @@ def test_highlight_pdf_text(pdf_path, highlight_text="• Name: Sarah Johnson"):
             else:
                 print(f"No matching text found on page {page_num + 1} for '{highlight_text}'")
 
-        # Save the modified PDF to a temporary in-memory buffer
+        # Save the modified PDF to temporary in-memory buffer
         temp_file = io.BytesIO()
         document.save(temp_file)
         document.close()
