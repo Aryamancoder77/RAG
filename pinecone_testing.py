@@ -29,7 +29,7 @@ TEMPERATURE = 0.5
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index_name = "new-index"
 
-# Connect to the existing Pinecone index or create if it doesn't exist
+# Connect to existing Pinecone index or create if it doesn't exist
 if index_name not in pc.list_indexes().names():
     pc.create_index(
         name=index_name,
