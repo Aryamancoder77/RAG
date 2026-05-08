@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from groq import Groq, GroqError
 
-# Load environment variables from .env file
+# load enviornment 
 load_dotenv()
 
 # Get the API key from environment variable
