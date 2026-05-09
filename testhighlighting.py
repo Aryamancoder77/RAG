@@ -8,7 +8,7 @@ def highlight_sentence(pdf_path, sentence, output_path):
     for page_num in range(len(document)):
         page = document[page_num]
         
-        # Search for the sentence
+        # Search for sentence
         text_instances = page.search_for(sentence)
         
         # If sentence is found, highlight it
