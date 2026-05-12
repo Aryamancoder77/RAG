@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer, CrossEncoder
 import nltk
 from nltk.tokenize import word_tokenize
 
-# Ensure you have downloaded necessary NLTK data
+# Ensure you downloaded necessary NLTK data
 nltk.download('punkt')
 
 query_bp = Blueprint('query_bp', __name__)
